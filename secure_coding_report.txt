@@ -1,0 +1,29 @@
+SECURE CODING REVIEW REPORT
+
+1. Introduction:
+This report analyzes a simple login system.
+
+2. Vulnerable Code:
+
+username = input("Enter username:")
+password = input("Enter password:")
+
+if username == "admin" and password == "1234":
+    print("Login successful")
+
+3. Issues Identified:
+- Hardcoded credentials
+- No encryption
+- No input validation
+
+4. Risks:
+- Easy hacking
+- Data theft
+
+5. Recommendations:
+- Use password hashing
+- Validate input
+- Use secure authentication systems
+
+6. Conclusion:
+Secure coding practices are essential to prevent cyber attacks.

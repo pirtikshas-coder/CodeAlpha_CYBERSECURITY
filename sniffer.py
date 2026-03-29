@@ -1,4 +1,4 @@
-from scapy.all import sniff, IP, TCP, UDP
+from scapy.all import sniff, IP, TCP, UDP, Raw
 
 def process_packet(packet):
     print("\n--- Packet Captured ---")
@@ -10,9 +10,12 @@ def process_packet(packet):
 
     if packet.haslayer(TCP):
         print("Protocol: TCP")
-
     elif packet.haslayer(UDP):
         print("Protocol: UDP")
+
+    # Show payload (NEW)
+    if packet.haslayer(Raw):
+        print("Payload:", packet[Raw].load)
 
     print(packet.summary())
 

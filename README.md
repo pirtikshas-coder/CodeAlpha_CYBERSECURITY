@@ -1,0 +1,15 @@
+# CodeAlpha Cyber Security Internship
+
+## Task 1: Basic Network Sniffer
+This project captures network packets using Python and Scapy.
+
+## Task 2: Phishing Awareness
+A presentation explaining phishing attacks and prevention.
+
+## Task 3: Secure Coding Review
+A report identifying vulnerabilities in insecure code.
+
+## Tools Used
+- Python
+- Scapy
+- PowerPoint

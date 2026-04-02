@@ -24,7 +24,7 @@ This repository contains my completed tasks for the Cyber Security Internship at
 ## ⚙️ Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/CodeAlpha_CYBERSECURITY.git
+git clone https://github.com/pirtikshas-coder/CodeAlpha_CYBERSECURITY.git
 
 2. Install dependencies:
 pip install -r requirements.txt
@@ -35,12 +35,6 @@ pip install -r requirements.txt
 
 Run the sniffer:
 python sniffer.py
-
----
-
-## 📸 Screenshots
-
-(Add screenshots here)
 
 ---
 
